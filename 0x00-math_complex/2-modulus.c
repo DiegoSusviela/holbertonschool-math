@@ -10,5 +10,5 @@
 
 double modulus(complex c)
 {
-	return (sqrt((c.im * c.re) + (c.re * c.re)));
+	return (sqrt((c.im * c.im) + (c.re * c.re)));
 }
