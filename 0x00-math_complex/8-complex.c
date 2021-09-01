@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- * add_node - imprime
- * @head: some number idk tbf
- * @str: dlkandla
+ * complex_from_mod_arg - imprime
+ * @m: some number idk tbf
+ * @arg: dlkandla
+ * @c3: dlkandla
  *
 * Description: Show a message blablabla
 * Return: Always 0 (Success)

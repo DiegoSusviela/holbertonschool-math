@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include "6-multiplication"
+#include "6-multiplication.c"
 #include "1-conjugate.c"
 
 /**

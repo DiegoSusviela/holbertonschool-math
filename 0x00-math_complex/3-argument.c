@@ -1,9 +1,8 @@
 #include "holberton.h"
 
 /**
- * add_node - imprime
- * @head: some number idk tbf
- * @str: dlkandla
+ * argument - imprime
+ * @c: some number idk tbf
  *
 * Description: Show a message blablabla
 * Return: Always 0 (Success)
