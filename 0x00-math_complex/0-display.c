@@ -8,13 +8,39 @@
 * Return: Always 0 (Success)
 */
 
+#include "holberton.h"
+
+/**
+ * display_complex_number - displays a complex numbers
+ * @c: complex umber to display.
+ */
+
 void display_complex_number(complex c)
 {
-	if (!c.im || !c.re)
-		if (c.im)
-			printf("%gi\n", c.im);
-		else
-			printf("%g\n", c.re);
-	else
-		printf("%g + %gi\n", c.re, c.im);
+
+/* print the real part */
+if (c.re)
+    printf("%.9g", c.re);
+
+/* print the imaginary part */
+if (c.im > 0)
+{
+    if (c.re)
+        printf(" + ");
+    if (c.im != 1)
+        printf("%.9gi\n", c.im);
+    else
+        printf("i\n");
+}
+else if (c.im < 0)
+{
+    if (c.re)
+        printf(" - ");
+    if (c.im != -1)
+        printf("%.9gi\n", c.im * (-1));
+    else
+        printf("i\n");
+}
+else
+    printf("\n");
 }
