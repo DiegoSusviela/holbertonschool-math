@@ -3,9 +3,10 @@
 #include "1-conjugate.c"
 
 /**
- * add_node - imprime
- * @head: some number idk tbf
- * @str: dlkandla
+ * division - imprime
+ * @c1: some number idk tbf
+ * @c2: dlkandla
+ * @c3: dlkandla
  *
 * Description: Show a message blablabla
 * Return: Always 0 (Success)
