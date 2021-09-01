@@ -13,6 +13,6 @@ complex conjugate(complex c)
 	complex conj;
 
 	conj.re = c.re;
-	conj.im = -conj.im;
+	conj.im = -c.im;
 	return (conj);
 }
